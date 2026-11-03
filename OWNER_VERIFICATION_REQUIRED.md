@@ -42,6 +42,15 @@ having "a pool with a view" — this reads like generic booking-platform templat
 a verified fact about this specific property, so it was **not** used anywhere on this site. If a
 room genuinely overlooks the pool, say which one and it can be added honestly.
 
+## 1c. "Executive Spa suite" — unmatched room name
+
+The official site's visitor FAQ answers a question ("which room has a spa suite?") with
+"Executive Spa suite". That name doesn't match any of the 6 confirmed room names from the
+accommodation page (the closest is "Family Room With Spa Bath"). It may be an old name for the
+same room, a different/retired room type, or a typo. This site's FAQ page omits that Q&A rather
+than repeat a room name that can't be matched to a real listing — please confirm if it's the same
+room so the FAQ can name it correctly.
+
 ## 2. Google Business Profile link
 
 The "Google Reviews" link on the homepage currently points to a Google *search* for
