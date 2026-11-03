@@ -5,14 +5,16 @@ HTML/CSS/JS, no build step, deployed via GitHub Pages.
 
 ## Before this goes live for real guests
 
-**Every photograph on this site is a placeholder.** No licensed property photography was
-available when this was built, so every image is a clearly labelled "Photo pending" placeholder
-(see `CONTENT-SOURCES.md`). Replace each `.photo-placeholder` block with a real `<img>` of the
-actual property before treating this as finished marketing material.
+All photography is real, sourced from the official tuckerbox.com.au site with the user's
+authorization (see `CONTENT-SOURCES.md` for provenance of every image). A couple of facts are
+still unconfirmed because the official site contradicts itself in places (breakfast policy, pool
+"seasonal" vs "solar heated") — see `OWNER_VERIFICATION_REQUIRED.md` before publishing anything
+that touches those.
 
 There is intentionally no booking engine, payment flow, or contact-form backend in this repo —
-all "Check Availability" buttons link to the motel's existing Booking.com listing, and contact
-actions use `tel:`/`mailto:` links. That's by design, not an oversight.
+all "Check Availability" buttons link to the motel's real Bookings247 booking engine (the same
+one embedded on tuckerbox.com.au), with room-specific links on the Rooms page. Contact actions
+use `tel:`/`mailto:` links. That's by design, not an oversight.
 
 ## Structure
 

@@ -13,13 +13,34 @@ not used on the site) reads:
 > LICENCED ... POOL · DISABLED · MEALS"
 
 This implies the property may offer (or have historically offered) **room meal service and a
-licensed bar**. However, the booking-platform data used to build `PRODUCT.md` /
-`CONTENT-SOURCES.md` states **no on-site restaurant and no included breakfast**.
+licensed bar**. The official site's own FAQ page is *also* internally inconsistent about this —
+it states in one place "we do not provide breakfast or dinner" and "there is no restaurant at
+Tuckerbox Motor Inn", but elsewhere on the same page says breakfast is available "at an
+additional cost". So there are now three different signals (roadside sign, and two conflicting
+FAQ statements), none of them fully consistent with each other.
 
 **The site currently does NOT claim a restaurant, meals, or liquor licence anywhere** — this
-follows the brief's instruction not to invent amenities. But the signage suggests the current
-"no restaurant/no breakfast" assumption might be outdated, or the sign itself might be outdated.
-**Please confirm which is current** so the Facilities page can be corrected either way.
+follows the brief's instruction not to invent amenities. **Please confirm the current, accurate
+policy** (is any meal/breakfast service available at all, paid or otherwise?) so the Facilities
+page can state it correctly either way.
+
+## 1b. Pool description — conflicting evidence
+
+The official site describes the pool two different ways in two different places:
+- Homepage: "a seasonal outdoor swimming pool"
+- Accommodation page: "a large solar heated swimming pool" (no "seasonal" qualifier — a
+  solar-heated pool is typically usable for a longer season than an unheated one, which is hard
+  to square with "seasonal")
+
+Because these conflict, this site currently says only "Outdoor swimming pool" / "Shared pool on
+site" everywhere, without claiming it's seasonal, heated, or year-round. **Please confirm which
+description is accurate** (seasonal and unheated, or solar-heated with an extended season) so the
+copy can say so precisely — guests may reasonably want to know before arriving in cooler months.
+
+Separately, the accommodation page's own per-room marketing copy describes two specific rooms as
+having "a pool with a view" — this reads like generic booking-platform template copy rather than
+a verified fact about this specific property, so it was **not** used anywhere on this site. If a
+room genuinely overlooks the pool, say which one and it can be added honestly.
 
 ## 2. Google Business Profile link
 

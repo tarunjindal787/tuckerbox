@@ -16,7 +16,7 @@ Travellers driving the Hume Highway corridor between Sydney, Canberra, and Melbo
 
 ## Product Purpose
 
-A marketing/informational website for Tuckerbox Motor Inn, a real, independently operated 4-star motel. The site must let a visitor quickly understand what the property is, where it is, what room options exist, what facilities are available, what the rooms look like, how to check availability, and how to contact the property or get directions. Success is a visitor confidently calling, emailing, or clicking through to the property's existing Booking.com listing — not a new booking/payment system.
+A marketing/informational website for Tuckerbox Motor Inn, a real, independently operated 4-star motel. The site must let a visitor quickly understand what the property is, where it is, what room options exist, what facilities are available, what the rooms look like, how to check availability, and how to contact the property or get directions. Success is a visitor confidently calling, emailing, or clicking through to the property's existing Bookings247 online booking system — not a new booking/payment system.
 
 ## Positioning
 
@@ -25,27 +25,27 @@ An independently run, 4-star roadside motor inn in South Gundagai — a practica
 ## Operating Context
 
 - No existing website codebase: this is a brand-new static site, not a redesign of running code.
-- There is no booking engine, payment system, or backend to build or integrate — availability/booking happens entirely through the property's existing third-party Booking.com listing, plus phone and email.
+- There is no booking engine, payment system, or backend to build or integrate — availability/booking happens entirely through the property's existing Bookings247 booking engine (the same one embedded on the official tuckerbox.com.au site), plus phone and email.
 - Deploy target: GitHub Pages, repository `tarunjindal787/tuckerbox`.
 - Check-in: 14:00–20:00. Check-out: until 10:00. Reception hours: 10am–8pm.
 - Payment methods accepted at the property: Visa, Mastercard, American Express.
-- Not pet-friendly. No on-site restaurant or included breakfast. Pool is seasonal/outdoor.
+- Not pet-friendly. No on-site restaurant or included breakfast (see OWNER_VERIFICATION_REQUIRED.md for a signage/FAQ discrepancy on this). Outdoor pool; "seasonal" vs "solar heated" is disputed across official sources, so neither is claimed.
 
 ## Capabilities and Constraints
 
 - Confirmed room categories (names, bed configuration, and amenities must not be invented or altered): Deluxe Queen Room; Family Suite With Balcony; Twin Room; Family Room; Family Room With Spa Bath; Two-Bedroom Suite. Per-room bed counts/facilities are recorded in `CONTENT-SOURCES.md`.
-- Confirmed property facilities: free parking, free WiFi, outdoor seasonal swimming pool, BBQ facilities, disabled access, non-smoking rooms only, daily housekeeping, designated smoking area, family rooms, tea/coffee maker in rooms.
+- Confirmed property facilities: free parking, free WiFi, outdoor swimming pool, BBQ facilities, disabled access, non-smoking rooms only, daily housekeeping, designated smoking area, family rooms, tea/coffee maker in rooms.
 - No on-site restaurant, no included breakfast, not pet-friendly — must not be implied otherwise.
-- No real guest-review quotes, ratings, or counts are on hand; the site must link out to Google/Tripadvisor/Booking.com review pages rather than fabricate testimonials.
+- No real guest-review quotes, ratings, or counts are on hand; the site must link out to Google/Tripadvisor review pages rather than fabricate testimonials.
 - No licensed, owner-approved property photography or video is on hand for this build; all imagery must be clearly labelled development placeholders until the client supplies real assets.
-- This is a frontend-only, backend-free build: all "availability" and "enquiry" actions route to existing external channels (Booking.com share link, `tel:`, `mailto:`), never to a new form backend.
+- This is a frontend-only, backend-free build: all "availability" and "enquiry" actions route to existing external channels (the Bookings247 booking engine, phone link, email link), never to a new form backend.
 
 ## Brand Commitments
 
 - Business name: Tuckerbox Motor Inn (must not be altered).
 - Address: 87 Mount Street, South Gundagai, Gundagai, NSW 2722, Australia.
 - Phone: 02 6944 0300. Email: enquiries@tuckerbox.com.au.
-- Booking.com listing: https://www.booking.com/Share-xRc6vJ
+- Bookings247 booking engine: https://bookings247.com.au/booking2/booknow.php?property_id=3658 (general) and https://bookings247.com.au/booking2/bookroom.php?property_id=3658&roomid=950X (per room, X = 1-6) — verified directly from the official site's own markup.
 
 ## Evidence on Hand
 
@@ -55,7 +55,7 @@ An independently run, 4-star roadside motor inn in South Gundagai — a practica
 ## Product Principles
 
 1. Never fabricate room details, prices, availability, facilities, or reviews — only confirmed facts or clearly labelled placeholders appear.
-2. All booking/contact actions must point to the property's real existing channels (Booking.com, phone, email) since no booking backend exists or should be built.
+2. All booking/contact actions must point to the property's real existing channels (Bookings247, phone, email) since no booking backend exists or should be built.
 3. Design for the real decision-making traveller on the highway, not a luxury-resort fantasy — practical clarity (location, rooms, facilities, contact) always outranks decoration.
 4. Every visual flourish must degrade gracefully (reduced motion, no JS, slow mobile connection) without hiding essential information.
 

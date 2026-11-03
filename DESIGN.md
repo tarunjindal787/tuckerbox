@@ -183,7 +183,7 @@ Every image slot in the shipped build is a `.photo-placeholder`: a sandstone-tin
 
 ### Do:
 - **Do** reserve clay (`#b2593a`) for exactly one primary action or active-state mark per view.
-- **Do** keep all booking/contact actions pointed at the real external channels — Booking.com share link, `tel:0269440300`, `mailto:enquiries@tuckerbox.com.au` — never a new form backend.
+- **Do** keep all booking/contact actions pointed at the real external channels — the Bookings247 booking engine, `tel:0269440300`, `mailto:enquiries@tuckerbox.com.au` — never a new form backend.
 - **Do** use the `.photo-placeholder` hairline-grid + "Photo pending" tag for any image slot until real, approved property photography replaces it.
 - **Do** keep room listings as alternating editorial rows and facilities as grouped annotated lists; both were deliberate choices against the generic card/tile default.
 - **Do** respect `prefers-reduced-motion` (durations collapse to 0ms; `.reveal` renders fully visible with no transition).
@@ -192,5 +192,5 @@ Every image slot in the shipped build is a `.photo-placeholder`: a sandstone-tin
 - **Don't** add a kicker/eyebrow label above any heading — none exists in the shipped build, and it is not part of this system.
 - **Don't** introduce hard-offset (neobrutalist-style) shadows; all elevation in this system is soft and ambient.
 - **Don't** replace the inline line-art SVG icon set with a glyph icon font or emoji.
-- **Don't** fabricate guest-review quotes, ratings, or prices — the build intentionally links out to Google/Tripadvisor/Booking.com instead.
+- **Don't** fabricate guest-review quotes, ratings, or prices — the build intentionally links out to Google/Tripadvisor instead.
 - **Don't** treat placeholder photography as final decoration; it is a defect-marker pending real assets, not a texture choice to keep.

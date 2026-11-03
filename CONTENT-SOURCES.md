@@ -10,6 +10,8 @@ on 2026-11-04. No prices, availability, or review quotes are fabricated anywhere
 - https://www.tuckerbox.com.au/web/accommodation.php
 - https://www.tuckerbox.com.au/web/facilities.php
 - https://tuckerbox.com.au/web/gallery.php
+- https://www.tuckerbox.com.au/web/faq.php (added 2026-11-04, for policy fact-checking)
+- https://www.tuckerbox.com.au/web/contact-us.php (added 2026-11-04, contact detail cross-check only — no new page was created from this; the brief's existing 5-page scope was kept)
 
 ## Business facts
 
@@ -22,7 +24,7 @@ on 2026-11-04. No prices, availability, or review quotes are fabricated anywhere
 - Check-in: 14:00–20:00 · Check-out: until 10:00 · Reception: 10am–8pm
 - Payment accepted: Visa, Mastercard, American Express
 - Not pet-friendly. No on-site restaurant or included breakfast. Porta cots available (additional cost, per source).
-- Booking.com listing: https://www.booking.com/Share-xRc6vJ
+- Bookings247 booking engine: https://bookings247.com.au/booking2/booknow.php?property_id=3658 (general), plus a per-room URL for each of the 6 rooms (roomid=9501-9506) — this is the actual booking engine embedded on tuckerbox.com.au itself, confirmed from its own page markup.
 
 ## Room categories (name, beds, facilities — verbatim facts, not invented)
 
@@ -37,17 +39,21 @@ All rooms (general): free WiFi, towels provided, iron & board, alarm clock, toil
 
 ## Property facilities (confirmed only)
 
-Free parking · Free WiFi · Outdoor seasonal swimming pool · BBQ facilities · Disabled access ·
+Free parking · Free WiFi · Outdoor swimming pool · BBQ facilities · Disabled access ·
 Non-smoking rooms only · Daily housekeeping · Designated smoking area · Family rooms available ·
 Tea/coffee maker in rooms.
+
+The pool is described inconsistently across official sources ("seasonal" on the homepage vs.
+"solar heated" on the accommodation page) — see `OWNER_VERIFICATION_REQUIRED.md` §1b. This site
+deliberately claims neither "seasonal" nor "heated" until that's resolved.
 
 ## Explicitly NOT claimed (do not add later without new source evidence)
 
 - No on-site restaurant or bar
 - No included breakfast
 - No gym, spa facility, EV charger, or laundry service confirmed
-- No specific guest review quotes, star counts, or ratings (link out to Google/Tripadvisor/Booking.com instead)
-- No real prices or live availability (these only exist on Booking.com)
+- No specific guest review quotes, star counts, or ratings (link out to Google/Tripadvisor instead)
+- No real prices or live availability (these only exist on Bookings247)
 
 ## Imagery
 
@@ -82,3 +88,10 @@ visual consistency with the rest of the design (see DESIGN.md).
 Any further imagery need (e.g. a dedicated accessible-room photo, a breakfast/dining area photo
 if one is confirmed to exist) should go through the same process: locate, visually verify, map
 to the correct subject, cite the source.
+
+## Logo
+
+`assets/brand/tuckerbox-logo.jpg` is the motel's actual logo, sourced directly from the official
+site's own header/footer markup (`image_90131`, same CDN as the property photos). It replaced the
+earlier text-only wordmark at the user's request. Displayed on a small white chip in the site's
+dark-green header/footer since the logo file itself has a solid white background.
