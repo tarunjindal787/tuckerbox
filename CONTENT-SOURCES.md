@@ -51,7 +51,34 @@ Tea/coffee maker in rooms.
 
 ## Imagery
 
-No licensed/owner-approved photography or video was available for this build. Every image on the
-site is a clearly labelled development placeholder (see `assets/placeholders/`) and must be
-swapped for real, approved property photography before this is treated as final/production
-marketing material.
+Updated 2026-11-04: real property photography has been sourced directly from the official
+Tuckerbox Motor Inn website (tuckerbox.com.au), with the user's explicit authorization to reuse
+it on this site. All 13 images in `assets/photos/` are genuine, unedited photographs of the real
+property (CDN: `cdnimages.bookings247.com.au/property_images/7915/3658/wp/`), not stock or
+AI-generated. Every room photo was matched to its room using the official site's own room-to-image
+mapping (each room's `room_id` carousel on the accommodation page), not guessed by appearance:
+
+| File | Source image ID | Verified via |
+|---|---|---|
+| `room-deluxe-queen.webp` | image_61217 | accommodation.php room_id=9501 ("Deluxe Queen Room") |
+| `room-family-suite-balcony.webp` | image_61194 | room_id=9502 ("Family Suite With Balcony") |
+| `room-twin.webp` | image_61201 | room_id=9503 ("Twin Room") |
+| `room-family.webp` | image_61199 | room_id=9504 ("Family Room") |
+| `room-family-spa-bath.webp` | image_61220 | room_id=9505 ("Family Room With Spa Bath") — shows the spa bath itself |
+| `room-two-bedroom-suite.webp` | image_61214 | room_id=9506 ("Two-Bedroom Suite") |
+| `exterior-reception.webp` | image_61253 | homepage hero carousel; visually confirmed reception/carport exterior |
+| `exterior-signage.webp` | image_61256 | homepage/facilities carousel; visually confirmed roof signage |
+| `exterior-twilight.webp` | image_61254 | homepage/facilities carousel; visually confirmed dusk exterior |
+| `exterior-grounds.webp` | image_61223 | gallery-only image; visually confirmed car park/grounds |
+| `pool.webp` | image_61255 | homepage/facilities carousel; visually confirmed outdoor pool |
+| `bbq-area.webp` | image_61210 | gallery-only image; visually confirmed covered BBQ/picnic shelter |
+| `reception-entrance.webp` | image_61208 | gallery-only image; visually confirmed "Reception →" entrance |
+
+No image was assumed correct from its filename or position alone — each was opened and visually
+inspected before use. Facility icon graphics (parking, WiFi, pool, etc.) available from the same
+CDN were deliberately **not** imported; this site's own hand-drawn line-icon system is kept for
+visual consistency with the rest of the design (see DESIGN.md).
+
+Any further imagery need (e.g. a dedicated accessible-room photo, a breakfast/dining area photo
+if one is confirmed to exist) should go through the same process: locate, visually verify, map
+to the correct subject, cite the source.

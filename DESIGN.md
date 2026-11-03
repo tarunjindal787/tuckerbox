@@ -10,6 +10,7 @@ colors:
   forest: "#2f4538"
   forest-dark: "#203027"
   charcoal: "#2b2a27"
+  text-muted: "#5c5a54"
   clay: "#b2593a"
   clay-dark: "#8e4229"
   white: "#ffffff"
@@ -111,6 +112,7 @@ The palette is a warm, sandstone-and-forest earth range drawn directly from the 
 - **Sandstone** (`#e7d9c3`, dark variant `#d7c3a3`): section banding (`.section--sandstone`) and the hero content panel background.
 - **Eucalyptus** (`#8fa396`, dark variant `#637569`): secondary tint — facility-group heading rule, ghost-button underline, phone-icon stroke in the header.
 - **Charcoal** (`#2b2a27`): body text and line-art icon strokes.
+- **Text-muted** (`#5c5a54`, derived from charcoal): secondary/supporting copy (`--color-text-muted`) — section-head subheads, facility descriptions, review-link captions on light grounds.
 - **White** (`#ffffff`): card/tag surfaces (`--color-surface`) sitting on ivory or sandstone.
 - **Line** (`rgba(43,42,39,0.12)`): hairline dividers between rows, facts-strip cells, and facility rows.
 

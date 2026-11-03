@@ -54,7 +54,8 @@
     var trigger = triggers[index];
     if (!trigger) return;
     var label = trigger.getAttribute("data-caption") || "";
-    figure.innerHTML = trigger.querySelector(".photo-placeholder").outerHTML;
+    var media = trigger.querySelector("img.photo, .photo-placeholder");
+    figure.innerHTML = media ? media.outerHTML : "";
     caption.textContent = label;
   }
 
