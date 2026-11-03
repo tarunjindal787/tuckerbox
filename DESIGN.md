@@ -101,7 +101,7 @@ As shipped, typography is Petrona (display serif, editorial and warm) paired wit
 
 ## Colors
 
-The palette is a warm, sandstone-and-forest earth range drawn directly from the client's own brief; it is brief-pinned, not a reflexive AI default (confirmed in `.impeccable/config.json`'s `cream-palette` ignore entry).
+The palette is a warm, sandstone-and-forest earth range drawn directly from the client's own brief.
 
 ### Primary
 - **Forest** (`#2f4538`, dark variant `#203027`): the committed dark field for the sticky header, footer, and `.section--forest` bands. Carries ivory text/headings when reversed.
@@ -171,7 +171,7 @@ Corners are gently rounded: 4px (small controls, focus-ring corner), 10px (map f
 - Sticky forest-green header bar; logotype + small uppercase locality line, nav links in ivory with a 2px clay underline on hover/`aria-current`, phone number always visible as a direct `tel:` link. Collapses to a bordered 44px hamburger button under 860px, opening a full-width forest dropdown panel.
 
 ### Placeholder Photography (signature component)
-Every image slot in the shipped build is a `.photo-placeholder`: a sandstone-tinted hairline-grid texture (22px diagonal crosshatch) with a dark pill-shaped tag (camera icon + "Photo pending — [subject]" caption) anchored bottom-right. This is a durable, intentional "pending real photography" marker — confirmed sanctioned in `.impeccable/config.json`'s `codex-grid-background` ignore entry — and must be preserved as the swap-in point for real client photography, not treated as finished decorative texture.
+Every image slot in the shipped build is a `.photo-placeholder`: a sandstone-tinted hairline-grid texture (22px diagonal crosshatch) with a dark pill-shaped tag (camera icon + "Photo pending — [subject]" caption) anchored bottom-right. This is a durable, intentional "pending real photography" marker and must be preserved as the swap-in point for real client photography, not treated as finished decorative texture.
 
 ### Editorial Room Row (signature component)
 `.room-row`: an alternating two-column grid (photo/detail, flipping sides on even rows) used for all six room listings on accommodation.html — explicitly not a uniform card grid. Bed configuration renders as an uppercase forest-green label; amenities as a `.tag-list` of pill chips.
