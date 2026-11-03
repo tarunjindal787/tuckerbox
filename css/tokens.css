@@ -1,0 +1,95 @@
+/* ==========================================================================
+   Tuckerbox Motor Inn — Design Tokens
+   "Modern Australian Country Roadside Retreat"
+   ========================================================================== */
+
+:root {
+  /* Colour */
+  --color-ivory: #faf6ee;
+  --color-sandstone: #e7d9c3;
+  --color-sandstone-dark: #d7c3a3;
+  --color-eucalyptus: #8fa396;
+  --color-eucalyptus-dark: #637569;
+  --color-forest: #2f4538;
+  --color-forest-dark: #203027;
+  --color-charcoal: #2b2a27;
+  --color-clay: #b2593a;
+  --color-clay-dark: #8e4229;
+  --color-white: #ffffff;
+  --color-line: rgba(43, 42, 39, 0.12);
+
+  --color-bg: var(--color-ivory);
+  --color-surface: var(--color-white);
+  --color-text: var(--color-charcoal);
+  --color-text-muted: #5c5a54;
+  --color-accent: var(--color-clay);
+  --color-accent-contrast: var(--color-white);
+  --color-brand: var(--color-forest);
+  --color-brand-contrast: var(--color-ivory);
+
+  /* Typography */
+  --font-display: "Petrona", Georgia, "Times New Roman", serif;
+  --font-body: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.75rem;
+  --fs-2xl: 2.25rem;
+  --fs-3xl: 3rem;
+  --fs-4xl: 3.75rem;
+
+  --lh-tight: 1.15;
+  --lh-snug: 1.35;
+  --lh-normal: 1.6;
+
+  /* Spacing (4px base scale) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  /* Layout */
+  --container-max: 1240px;
+  --container-narrow: 820px;
+  --gutter: var(--space-5);
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(43, 42, 39, 0.08);
+  --shadow-md: 0 8px 24px rgba(43, 42, 39, 0.12);
+  --shadow-lg: 0 20px 48px rgba(43, 42, 39, 0.18);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 450ms;
+
+  /* Z-index */
+  --z-header: 100;
+  --z-overlay: 200;
+}
+
+/* Breakpoints (reference, used in media queries directly):
+   xs: 320px  sm: 480px  md: 768px  lg: 1024px  xl: 1280px  xxl: 1600px */
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0ms;
+    --duration-base: 0ms;
+    --duration-slow: 0ms;
+  }
+}
