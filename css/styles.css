@@ -19,7 +19,19 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-img, svg { max-width: 100%; display: block; }
+/* ---- Universal media reset ----
+   Keeps every image/video/svg/iframe inside its box, including inside
+   flex/grid containers. See the "flex/grid" note below for why min-width/
+   min-height matter as much as max-width here. */
+img, picture, video, canvas, svg, iframe, embed, object {
+  display: block;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+img, video {
+  height: auto;
+}
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
@@ -339,6 +351,17 @@ a:hover { text-decoration-thickness: 2px; }
 .photo--ratio-4-3 { aspect-ratio: 4 / 3; }
 .photo--ratio-1-1 { aspect-ratio: 1 / 1; }
 .photo--ratio-3-4 { aspect-ratio: 3 / 4; }
+
+/* Legacy fallback for aspect-ratio (pre-2021 browsers / no support):
+   wrap the media in <div class="ratio-fallback" style="--ratio:56.25%">
+   so it still holds its box via the classic padding-top trick. Not needed
+   by any current page on this site (aspect-ratio has full support in our
+   target browsers) — kept here for future-proofing only. */
+.ratio-fallback { position: relative; width: 100%; overflow: hidden; }
+.ratio-fallback::before { content: ""; display: block; padding-top: var(--ratio, 56.25%); }
+.ratio-fallback > img, .ratio-fallback > video, .ratio-fallback > iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+}
 
 .photo-placeholder--ratio-16-9 { aspect-ratio: 16 / 9; }
 .photo-placeholder--ratio-4-3 { aspect-ratio: 4 / 3; }
